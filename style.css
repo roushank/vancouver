@@ -1,0 +1,84 @@
+/*
+ Theme Name:     Vancouver Child Theme
+ Theme URI:      #
+ Description:    Vancouver Child Theme
+ Author:         Saffron Nine
+ Author URI:     http://www.saffron9.com
+ Template:       thbusiness
+ Version:        1.0.0
+*/
+ 
+@import url("../thbusiness/style.css");
+@import 'https://fonts.googleapis.com/css?family=Lato:300,400,700,900';
+/* =Theme customization starts here
+------------------------------------------------------- */
+body{
+	font-family: 'Lato', sans-serif;
+}
+.top-bar{
+	background:#ef7f1b;
+	float: right;
+	color:#212121;
+	line-height: 30px;
+	min-height: 30px !important;
+	padding: 0 5px;
+}
+
+.topbar-icon{
+	background: none;
+	color:#212121;
+	margin: 0px;
+}
+
+.top-bar a{color:#212121;}
+
+.top-border{
+	border-right: 1px solid #212121;
+	margin: 0 10px;
+}
+
+.main-navigation a{
+	height: 70px;
+	line-height: 70px;
+	color:#212121;
+	font-weight: 500;
+	padding: 0 15px;
+}
+.main-navigation ul li ul li a, 
+.main-navigation ul li.current-menu-item ul li a, 
+.main-navigation ul li ul li.current-menu-item a, 
+.main-navigation ul li.current_page_ancestor ul li a, 
+.main-navigation ul li.current-menu-ancestor ul li a, 
+.main-navigation ul li.current_page_item ul li a{
+	color:#212121;
+}
+.th-search-button-icon{
+	height: 70px;
+	line-height: 70px;
+	color:#212121;
+}
+.th-search-box-container {
+    background: #fff;
+    border: 3px solid #ef7f1b;
+    border-top: 3px solid #ef7f1b;
+    display: none;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    top: 70px;
+    width: 298px;
+    z-index: 999;
+}
+.flexslider{
+	border:none !important;
+}
+.site-footer, .footer-site-info{
+	background: #ef7f1b;
+	color:#212121;
+}
+.site-footer a, .footer-site-info a, .site-footer a:hover, .footer-site-info a:hover{
+	color:#212121 !important;
+}
+.copyright-container{
+	line-height: 40px;
+}
